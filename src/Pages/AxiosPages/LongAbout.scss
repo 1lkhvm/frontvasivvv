@@ -1,0 +1,45 @@
+.abouts-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a4a37;
+
+
+    .abouts {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+
+        .abouts-imgs {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                display: flex;
+                width: 70%;
+            }
+
+            span {
+                color: white
+            }
+        }
+
+        .abouts-text {
+            width: 100%;
+            display: flex;
+
+            p {
+                color: white;
+
+            }
+        }
+    }
+}

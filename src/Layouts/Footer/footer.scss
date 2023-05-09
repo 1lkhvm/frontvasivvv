@@ -1,0 +1,40 @@
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+
+    footer {
+        margin-top: 50px;
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            display: flex;
+
+            li {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                width: 30%;
+                list-style: none;
+
+                img {
+                    width: 28%;
+                    color: black;
+                }
+
+                span {
+                    color: rgb(0, 0, 0);
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

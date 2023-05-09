@@ -1,0 +1,36 @@
+.AboutSection1-container {
+    background-image: url('https://rare-gallery.com/uploads/posts/569167-architecture.jpg');
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+
+    .AboutSection1 {
+        width: 100%;
+        height: 80vh;
+        background: #62efff;
+
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .AboutSection1-text {
+            width: 100%;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h1 {
+                color: white;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: 600;
+                font-style: italic;
+                font-size: 50px;
+            }
+        }
+    }
+}
